@@ -2,10 +2,19 @@
     padding-bottom: 100px;
 }
 .effect-fade:hover {
-filter:blur(2px)
+    filter:blur(2px);
+    transition: all, 0.4s;
     
 }
 
+.banner {
+    background-image: url(content/img/frontimg0.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height:calc(100vh - 56px);
+
+}
+/* PARTNER */
 .logopartners {
     padding-top: 100px;
 }
@@ -15,7 +24,7 @@ filter:blur(2px)
 }
 
 .text-carousel:hover {
-    filter:blur(3px)
+    filter:blur(3px);
 }
 
 .text-breadcrumb {
